@@ -1,0 +1,64 @@
+
+	body{
+		padding-top: 40px;
+		color: black;
+	}
+	
+		
+		
+		
+		.row1 {
+			background-color: white;
+		}
+		
+		.tileBox p {
+			background-color: #D3D3D3;
+			padding-top: 10px;
+		}
+		
+		.carousel-caption {
+			color: black;
+		}
+		
+		.item {
+			width: auto;
+			height: 400px;
+			max-height: 400px;
+		}
+		
+		
+		
+		.text-inverse {
+			font-family: 'Merriweather Sans', sans-serif;
+		}
+		
+		
+		
+		.well1 {
+			background: url(assets/Workspace.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		.page-header {
+			font-family: 'Merriweather Sans', sans-serif;
+		}
+		
+		.well2 {
+			background: url(assets/Skills.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		.cd-top.cd-is-visible {
+			visibility: visible;
+			opacity: 1;
+		}
+		
+		.cd-top.cd-fade-out {
+			opacity: .5;
+		}

@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>CV App</title>
+	<meta name="description" content="CV App">
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<link rel="stylesheet" href="css/CVStylesheet.css">
+
+</head>
+
+	<!-- CSS -->
+	
+	<style>
+		.jumbotron {
+			position: relative;
+			background: #000 url("assets/Workspace.jpg") center center;
+			width 100%;
+			height 100%;
+			background-size: cover;
+			overflow: hidden;
+			min-height: 500px;
+			color: black;
+		}
+		
+		.parallax {
+			background-image: url("assets/Workspace.jpg");
+			
+			height: 550px;
+			
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		
+		.containerWork {		 
+			background: url(assets/Workspace.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		
+		.well {
+			background: url(assets/Workspace2.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		.well1 {
+			background: url(assets/Workspace.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		
+		
+		.well2 {
+			background: url(assets/Skills.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		
+		
+	</style>
+
+	<!-- JQuery -->
+	<script type="text/javascript">
+	//browser window scroll (in pixels) after which the "back to top" link is shown
+	var offset = 300,
+	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+	offset_opacity = 1200,
+	//duration of the top scrolling animation (in ms)
+	scroll_top_duration = 700;
+
+	</script>
+	
+	
+<!-- NavBar -->
+<body data-spy="scroll" data-target="#my-navbar">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<div class="container"> 
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a href="#top" class="navbar-brand">Michael Smith</a>
+			
+		</div> <!-- Navbar Header -->
+		
+		
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+				<!--
+				<a href="#contact2" data-toggle="modal" class="navbar-btn navbar-right">
+					<button type="submit" class="btn btn-primary">Features I implemented</button>
+				</a>
+				-->
+			
+			<ul class="nav navbar-nav">
+				<li><a href="#aboutme">About Me</a>
+				<li><a href="#education">Education</a>
+				<li><a href="#results">Results</a>
+				<li><a href="#skills">Skills</a>
+				<li><a href="#projects">Projects</a>
+				<li><a href="#work">Work Experience</a>
+				<li><a href="#hobbies">Hobbies</a>
+				<li><a href="#contact">Contact</a>
+			</ul>
+		</div>
+		
+	</div> <!-- End Container -->
+</nav> <!-- End NavBar -->
+
+
+
+<!-- Jumbotron Parallax -->
+<div class="parallax">	
+	<div class="cover">
+      <div class="navbar"> </div>
+		<div class="cover-image"></div>
+		<div class="container">			
+		<img src="assets/Profile.jpg" class="img-circle center-block" alt="Profile pic" width="287" height="300">
+			<div class="col-md-12 text-center">
+				<h1 class="text-inverse">CV of Michael Smith</h1>
+				<p class="text-inverse">Student at Institute of Technology Tallaght.</p>
+				
+				<ul class="list-inline">
+					<li><a href="https://twitter.com/MickSmith1986" target="_blank"><i class="fa fa-twitter-square" style="font-size:48px;color:#00aced"></i></a></li>
+					<li><a href="https://www.facebook.com/mick.smith.524?ref=bookmarks" target="_blank"><i class="fa fa-facebook-square" style="font-size:48px;color:#3b5998"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/michael-smith-4b96728b?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></li>
+					<li><a href="https://github.com/x00107586" target="_blank"><i class="fa fa-git-square" style="font-size:48px;color:#6cc644"></i></a></li>
+				</ul>
+				<br>     
+			</div>
+		</div> <!-- End Container -->
+    </div> <!-- End Cover -->
+
+</div> <!-- End Jumbotron Parallax -->
+
+
+
+<!-- About Me -->
+<div class="container">
+	<section>
+		<div class="page-header text-center" id="aboutme">
+			<h2>About Me.<br><small> Personal Information</small></h2>
+		</div>
+		
+		<div class="row">
+		
+			<!-- Personal Info -->
+			<div class="col-md-4">
+				<blockquote>
+					<p>Hi my name is Michael Smith and I am a 4th year computing student at ITT.<br>
+					   I am currently working towards my Honours Bachelors degree in Computer Science.<br>
+					   My favourite areas of the course are Software Development, Networking, Databases and Interactive Media Design.
+					   <br>
+					   <br>
+					   I hope you like my CV!   
+					</p>
+					<footer>Michael Smith</footer>
+				</blockquote>
+			</div>
+			
+			<!-- ITT Logo -->
+			<div class="col-md-4">
+				<img src="assets/ITTallaght.jpg" class="img-responsive" alt="image">
+			</div>
+			
+			<!-- Contact Info -->
+			<div class="col-md-4">
+				
+				<blockquote>
+					<h3><strong>Personal Details</strong></h3>
+					<p><strong>Full Name</strong>
+					<br>
+					Michael Smith.
+					<br>
+					<strong>Date of Birth</strong>
+					<br>
+					11th March 1986.
+					<br>
+					<strong>Phone Number</strong>
+					<br>
+					085-2099504.
+					<br>
+					<strong>Email</strong>
+					<br>
+					<a href="mailto:michaelthomassmith1986@gmail.com">michaelthomassmith1986@gmail.com</a>
+					<br>
+					<br>
+					<br>
+					</p>
+				</blockquote>
+			</div>
+			
+		</div> <!-- End Row -->
+	</section> <!-- End Section -->
+</div> <!-- End About Me -->
+
+
+
+<!-- Previous Education -->
+<div class="container">
+	<div class="page-header text-center" id="aboutme">
+		<h2>Education.<br><small> Previous Education.</small></h2>
+	</div>
+</div>
+
+<section>
+	<div class="well" id="education">
+			
+		<div class="container">
+				
+			<div class="row1">
+				<div class="col-md-12 text-center tileBox">
+
+				</div>
+				
+				<!-- College -->
+				<div class="col-lg-4" style="padding-top: 25px;">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<div class="txtHead" style="padding-top: 10px;">
+								<img src="assets/College.jpg" style="height: 100px; width: 200px;" >
+							</div>
+							
+							<div class="col-lg-12">
+								<div class="panel panel-default text-center">
+									<div class="panel-body">
+										<div class="txtHead" style="padding-top: 10px;">
+											<p><strong>2013-Present</strong><br>
+											Institute of Technology Tallaght.<br>
+											Computing - Bachelors of Science (Honours)<br>
+											Current GPA 3.17</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- FAS -->
+				<div class="col-lg-4" style="padding-top: 25px;">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<div class="txtHead" style="padding-top: 10px;">
+								<img src="assets/FAS.jpg" style="height: 100px; width: 200px;" >
+							</div>
+							
+							<div class="col-lg-12">
+								<div class="panel panel-default text-center">
+									<div class="panel-body">
+										<div class="txtHead" style="padding-top: 10px;">
+											<p><strong>2011-2012</strong><br>
+											FAS Ballyfermot<br>
+											Computing and PC Maintenance<br>
+											CompTIA A+<br>
+											CompTIA Network+</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Secondary School -->
+				<div class="col-lg-4" style="padding-top: 25px;">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<div class="txtHead" style="padding-top: 10px;">
+								<img src="assets/MoylePark.jpg" style="height: 100px; width: 200px;" >
+							</div>
+							
+							<div class="col-lg-12">
+								<div class="panel panel-default text-center">
+									<div class="panel-body">
+										<div class="txtHead" style="padding-top: 10px;">
+										<p><strong>2000-2006</strong><br>
+										Moyle Park College<br>
+										Completed Leaving and Jnr Cert<br>with all honors.<br><br></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div> <!-- End Row -->			
+		</div> <!-- End container --> 
+	</div> <!-- End well -->
+		
+</section> <!-- End of Education -->
+	
+	
+
+<!-- Results -->
+<div class="container">
+	<section>
+	
+		<div class="page-header text-center" id="results">
+			<h2>Results.<br><small> Previous College Grades</small></h2>
+		</div>
+		
+		<div class="panel-group" id="accordian" >
+		
+			<div class="panel panel-default">
+			
+				<!-- 3rd Year Results -->
+				<div class="panel-heading">
+					<div class="panel-title">
+						<a href="#collapse-1" data-toggle="collapse" data-parent="#accordian">
+							<h3><strong>3rd Year Results</strong></h3>
+						</a>
+					</div> 
+					
+					<!-- Semester 6 -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-2" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 6</strong>
+								</a>
+							</div>
+						
+						
+						<div id="collapse-2" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Network Management</span>
+									<span class="pull-right">A</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:82%">82%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Project</span>
+									<span class="pull-right">A</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Object Orientated Analyses and Design 2</span>
+									<span class="pull-right">B-</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:57.6%">57.6%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Algorithims and Data Structures 2</span>
+									<span class="pull-right">B</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:67%">67%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Logic and Problem Solving</span>
+									<span class="pull-right">B+</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%</div>
+									</div>
+								</div>
+							</div>
+							
+						</div> <!-- End Collapse 2 -->
+					
+					
+					</div> <!-- End Semester 6 -->
+						
+					
+					<!-- Semester 5 -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-3" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 5</strong>
+								</a>
+							</div>
+						
+						
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Advance Databases</span>
+									<span class="pull-right">B+</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:73.5%">73.5%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Cloud Services and Distributed Computing</span>
+									<span class="pull-right">B</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:64.5%">64.5%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Innovation and Entrepreneurship</span>
+									<span class="pull-right">B</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:63.5%">63.5%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Operating Systems</span>
+									<span class="pull-right">B</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:68%">68%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Web Design & Development 2</span>
+									<span class="pull-right">C+</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:52.5%">52.5%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Algorithims and Data Structures 1</span>
+									<span class="pull-right">B-</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:56%">56%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+						</div> <!-- End Collapse 3 -->
+					
+					
+						</div> <!-- End Panel Heading -->
+						
+						
+					</div> <!-- End Semester 5 -->
+				
+					</div> <!-- End Panel Default -->
+				
+				</div> <!-- End 3rd Year Result -->
+			
+			<div class="panel panel-default">
+			
+				<!-- 2nd Year Results -->
+				<div class="panel-heading">
+				
+					<div class="panel-title">
+						<a href="#collapse-21" data-toggle="collapse" data-parent="#accordian">
+							<h3><strong>2nd Year Results</strong></h3>
+						</a>
+					</div> 
+					
+					<div class="panel panel-default">
+					
+						<!-- Semester 4 -->
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-4" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 4</strong>
+								</a>
+							</div>
+						
+						
+							<div id="collapse-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Information Security</span>
+										<span class="pull-right">C</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:42.5%">42.5%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Object Orientated Analyses and Design 1</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:64.6%">64.6%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Management Science</span>
+										<span class="pull-right">A</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:88%">88%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Networking 2</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:75.9%">75.9%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Project</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:63%">63%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Software Development 4</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:76.5%">76.5%</div>
+										</div>
+									</div>
+								</div>
+						
+							</div> <!-- End Panel Collapse -->
+							
+						</div> <!-- End Semester 4 -->
+						
+						
+					<div class="panel panel-default">
+					
+						<!-- Semester 3 -->
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-5" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 3</strong>
+								</a>
+							</div>
+						
+						
+							<div id="collapse-5" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Web Design and Development</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:63%">63%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Discrete Mathematics 2</span>
+										<span class="pull-right">A</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:96%">96%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Database Design & Programming</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60.62%">60.62%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Networking 1</span>
+									<span class="pull-right">B+</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:77.4%">77.4%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Software Development 3</span>
+									<span class="pull-right">C</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:45%">45%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<div class="panel-body">
+								<div>
+									<span class="progress-label">Software Quality Assurance & Testing</span>
+									<span class="pull-right">B-</span>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:56%">56%</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							</div> <!-- End Panel Collapse 5 -->
+							
+						</div> <!-- End Semester 3 -->
+						
+					</div> <!-- End panel Default -->
+					
+					</div> <!-- End Semester 2 & 3 -->
+
+				</div> <!-- End 2nd Year -->
+				
+			</div> <!-- End 2nd Year Results -->
+			
+			
+			
+			<div class="panel panel-default">
+			
+				<div class="panel-heading">
+				
+					<div class="panel-title">
+						<a href="#collapse-31" data-toggle="collapse" data-parent="#accordian">
+							<h3><strong>1st Year Results</strong></h3>
+						</a>
+					</div> <!-- End panel title -->
+					
+					
+					<div class="panel panel-default">
+					
+						<!-- Semester 2 -->
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-6" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 2</strong>
+								</a>
+							</div>
+						
+						
+							<div id="collapse-6" class="panel-collapse collapse">
+							
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Operating Systems Fundamentals</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Database Fundamentals</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:73%">73%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Statistics</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:66%">66%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Social Media Communications</span>
+										<span class="pull-right">A</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80.71%">80.71%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Object Orientated Systems Analyses</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60.6%">60.6%</div>
+										</div>
+									</div>
+								</div>
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Software Development 2</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:77.2%">77.2%</div>
+										</div>
+									</div>
+								</div>
+						
+							</div> <!-- End Collapse 6 -->
+							
+						</div> <!-- End Semester 2 -->
+						
+						
+					<div class="panel panel-default">
+					
+						<!-- Semester 1 -->
+						<div class="panel-heading">
+						
+							<div class="panel-title">
+								<a href="#collapse-7" data-toggle="collapse" data-parent="#accordian">
+								<strong>Semester 1</strong>
+								</a>
+							</div>
+						
+						
+							<div id="collapse-7" class="panel-collapse collapse">
+							
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Learning to Learn</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:73%">73%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Discrete Mathematics 1</span>
+										<span class="pull-right">A</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:84.8%">84.8%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Business and Information Systems</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:61%">61%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Fundament of Interface & Web</span>
+										<span class="pull-right">C</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:43%">43%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Computer Architecture</span>
+										<span class="pull-right">B</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:67%">67%</div>
+										</div>
+									</div>
+								</div>
+						
+						
+								<div class="panel-body">
+									<div>
+										<span class="progress-label">Software Development 1</span>
+										<span class="pull-right">B+</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:73%">73%</div>
+										</div>
+									</div>						
+								</div>
+						
+							</div> <!-- End Collapse 7 -->
+						
+						</div> <!-- End Semester 1 -->
+						
+					</div> <!-- End Default Panel -->
+					
+					</div> <!-- End Semester 1 & 2 -->
+				
+				</div> <!-- End 1st Year Panel -->
+			
+			</div> <!-- End 1st Year Results -->
+			
+		</div> <!-- End panel group -->
+		
+		</section>
+		
+	</div> <!-- End Accordian -->
+	
+</div> <!-- End Container -->
+
+
+
+<!-- Skills Section -->
+<div class="container">
+	<div class="page-header text-center" id="skills">
+		<h2>Skills<br><small>Skills i have aquired</small></h2>
+	</div>
+</div>
+
+<section>
+	<div class="well2" id="education">
+			
+		<div class="container">
+				
+			<div class="row1">
+				<div class="col-md-12 text-center tileBox">
+
+				</div>
+			
+				<div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-desktop"></i></div>
+                    <h3>Software Development</h3>
+                    <p>Experience using programming languages such as Java, C#, C++</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-exchange"></i></div>
+                    <h3>Networking</h3>
+                    <p>Earned my CompTIA Network+ certification and have used programs like Cisco Packet Tracer in college.</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-edit"></i></div>
+                    <h3>Web Design</h3>
+                    <p>I have produced websites using HTML, CSS and JavaScript.</p>
+                </div>
+				
+				
+				<div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-database"></i></div>
+                    <h3>Database</h3>
+                    <p>I have created and maintained Databases using Oracle SQL Developer</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-thumbs-up"></i></div>
+                    <h3>Social Media</h3>
+                    <p>Have used programs like NodeXL to analyze trends within social media networks.</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="skills-box-icon" style="font-size: 44px;"><i class="fa fa-object-group"></i></div>
+                    <h3>Interactive Media Design</h3>
+                    <p>I have created visualizations and dashboards using Tableau.</p>
+                </div>
+			
+			</div> <!-- End Row -->			
+		</div> <!-- End container --> 
+	</div> <!-- End well -->
+	
+</section> <!-- End of Skills -->
+
+
+
+<!-- Projects -->
+<div class="container">
+	<section>
+		<div class="page-header text-center" id="projects">
+			<h2>Projects.<br><small> Previous college projects.</small></h2>
+		</div>
+		
+		
+		<!-- 4th Year Project -->
+		<div class="panel panel-default text-center">
+			<div class="panel-body" >
+			
+			<div class="row">
+				<div class="col-sm-6"  >
+					<h3><strong>4th Year Project - Ongoing</strong></h3>
+					<h4>“Machine Learning for financial modelling”</h4>
+						<p>As an alternative method for model development this project will look at how 2 or 3 different machine learning techniques might be applied to the model development space. 
+						The outcome of the project will give some indication as to the effectiveness and performance of machine learning in this space.
+						<br>
+						<br>
+						I have created two models within the Azure machine learning environment with the goal of predicting foreign exchange rates for several currency pairings. Each model is running a different algorithm, one is running a neural network regression algorithm and the other is running a linear regression algorithm, to find out which model is more accurate at predicting the values based on a number of different features such as interest rates, unemployment rates, and GDP.
+						</p>
+						<p><strong>Project for outside company:</strong></p>
+				
+							<div class="row">
+				
+								<div class="col-sm-5 col-sm-offset-3"> <!-- Need to fix the center in this -->
+									<div class="team-member text-center">
+										<img src="assets/BOA.jpg" class="img-responsive img-circle" alt="">
+										<h4>Bank of America Merrill Lynch</h4>
+										<p class="text-muted"><a href="https://www.linkedin.com/company/3797085?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A3797085%2Cidx%3A2-2-5%2CtarId%3A1481029441058%2Ctas%3Abank%20of%20amer" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+									</div>
+								</div>
+		
+			
+							</div> <!-- End Row -->
+				
+				</div> <!-- End Column -->
+			
+			
+				<div class="col-sm-6">
+					<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide-to="1" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="2" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="3" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="4" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="5" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="6" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="7" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="8" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="9" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="10" ></li>
+						</ol>
+					<div class="carousel-inner">
+					
+						<div class="item active">
+							<img src="assets\Code\Code1.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Code\Code2.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Code\Code3.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Code\Code4.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Code\Output.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Linear Regression Model\Before Editing.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Linear Regression Model\Model part1.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Linear Regression Model\Model part2.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Linear Regression Model\Scored Model.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Neural Network Model\Model.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\Neural Network Model\Scored Model.png" alt="Image Text" style="height: 100%;">
+							<div class="carousel-caption">
+								<h3>4th Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+					</div> <!-- End Inner Carousel -->
+			
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+			
+				</div> <!-- End Carousel -->
+				
+			</div> <!-- End Column -->
+				
+			</div> <!-- end row -->
+			
+		</div>
+		
+	</div> <!-- End 4th Year Project -->
+		
+		
+		
+		<!-- 3rd Year Project -->
+		<div class="panel panel-default text-center">
+			<div class="panel-body" >
+			
+			<div class="row">
+				<div class="col-sm-6"  >
+					<h3><strong>3rd Year Project</strong></h3>
+					<h4>“The design and implementation of a platform video game”</h4>
+						<p>For my most recent project assignment my team and I decided to research and develop a platform video game using Unity 5.3 engine. 
+						We began by researching past video games and moulding the best aspects of older classic video games with some ideas of our own. 
+						We decided to write the code in C# which we learned ourselves while creating the game. 
+						We also created a database so players could save their scores and compete against friends.</p>
+						<p><strong>Other project Members:</strong></p>
+				
+							<div class="row">
+				
+								<div class="col-sm-5 col-sm-offset-1">
+									<div class="team-member text-center">
+										<img src="assets/MarkCarroll.jpg" class="img-responsive img-circle" alt="">
+										<h4>Mark Carroll</h4>
+										<p class="text-muted"><a href="https://www.linkedin.com/in/mark-carroll-34801a5b?authType=NAME_SEARCH&authToken=7g2o&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_212043368%2Cidx%3A2" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+									</div>
+								</div>
+			
+			
+			
+								<div class="col-sm-5">
+									<div class="team-member text-center">
+										<img src="assets/AdamFlood.jpg" class="img-responsive img-circle" alt="">
+										<h4>Adam Flood</h4>
+										<p class="text-muted"><a href="https://www.linkedin.com/in/adam-flood-492b5592?authType=NAME_SEARCH&authToken=G6sq&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_331308398%2Cidx%3A2" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+									</div>
+								</div>
+			
+							</div> <!-- End Row -->
+				
+				</div> <!-- End Column -->
+			
+			
+				<div class="col-sm-6">
+					<h2><strong>Playthrough of level i created</strong></h2>
+						<div class="embed-responsive embed-responsive-16by9">
+						
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/LV26B28aP6Y" frameborder="0" allowfullscreen></iframe>
+						
+						<!--
+							<video class="embed-responsive-item" src="assets/3rdYearProjectVid.mp4" controls></video>
+							-->
+						</div>	
+				</div>
+				
+			</div> <!-- end row -->
+			
+		</div>
+		
+	</div> <!-- End 3rd Year Project -->
+		
+		
+	<!-- 2nd Year Project -->
+	<div class="panel panel-default text-center">
+		<div class="panel-body">
+		
+			<div class="row" style="padding-top: 10px;">
+				<div class="col-sm-6">
+					<h3><strong>2nd Year Project</strong></h3>
+					<h4>“The design and implementation of a part-time student registration system”</h4>
+						<p>Research based project in which myself and my team examined the requirements for creating a part time registration system from the perspective of a student applying for a course, 
+						and also from the perspective of a member of the college administration. 
+						We then wrote the code and created the database to implement the system. 
+						Methodology included conducting interviews with the head of part-time student registration in ITT and researching the current process of enrolling in a part time course.</p>
+						<p><strong>Other Project Members:</strong></p>
+						
+					<div class="row">
+				
+							<div class="col-md-4">
+								<div class="team-member text-center">
+									<img src="assets/MarkCarroll.jpg" class="img-responsive img-circle" alt="">
+									<h4>Mark Carroll</h4>
+									<p class="text-muted"><a href="https://www.linkedin.com/in/mark-carroll-34801a5b?authType=NAME_SEARCH&authToken=7g2o&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_212043368%2Cidx%3A2" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+								</div>
+							</div>
+			
+							<div class="col-md-4">
+								<div class="team-member text-center">
+									<img src="assets/JOR.jpg" class="img-responsive img-circle" alt="">
+									<h4>James O Reilly</h4>
+									<p class="text-muted"><a href="https://www.linkedin.com/in/james-o-reilly-8016718b?authType=NAME_SEARCH&authToken=ZNMP&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A321141313%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1480959522759%2Ctas%3Ajames" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+								</div>
+							</div>
+			
+							<div class="col-md-4">
+								<div class="team-member text-center">
+									<img src="assets/AlexSadiku.jpg" class="img-responsive img-circle" alt="">
+									<h4>Alexandro Sadiku</h4>
+									<p class="text-muted"><a href="https://www.linkedin.com/in/alexandro-sadiku-2326728b?authType=NAME_SEARCH&authToken=FHOR&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_321142214%2Cidx%3A3" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></a></p>
+								</div>
+							</div>
+			
+					</div> <!-- End Row -->
+				
+				</div> <!-- End Column -->
+			
+				<div class="col-sm-6">
+					<div class="carousel slide" id="screenshot-carousel1" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide-to="1" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="2" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="3" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="4" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="5" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="6" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="7" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="8" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="9" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="10" ></li>
+							<li data-target="#screenshot-carousel" data-slide-to="11" ></li>
+						</ol>
+					<div class="carousel-inner">
+					
+						<div class="item active">
+							<img src="assets\2ndYearProjectScreens\10001.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\admin (1).jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\AdminScreen.png" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\app.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\files.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\FOHOME.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\FOScreen.png" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\Login.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\nospace.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\Student Screen.png" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\UserLog.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="assets\2ndYearProjectScreens\StudentInfo.jpg" alt="Image Text">
+							<div class="carousel-caption">
+								<h3>2nd Year Project</h3>
+								<p>Screenshots</p>
+							</div>
+						</div>
+						
+					</div> <!-- End Inner Carousel -->
+			
+					<a href="#screenshot-carousel1" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#screenshot-carousel1" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+			
+				</div> <!-- End Carousel -->
+				
+			</div> <!-- End Column -->
+			
+		</div> <!-- end row -->
+		
+		</div>
+		
+	</div> <!-- End 2nd Year Project -->
+		
+	</section> <!-- End Section -->
+	
+</div> <!-- End Projects --> 
+
+
+	
+<!-- Work Experience -->
+<div class="container">
+	<div class="page-header text-center" id="work">
+		<h2>Work Experience.<br><small> Previous jobs.</small></h2>
+	</div>
+</div>
+
+<section>
+	<div class="well1" id="education">
+			
+		<div class="container">
+				
+				<!-- New Look -->
+				<div class="col-lg-5 col-lg-offset-1" style="padding-top: 30px;">
+						<div class="panel panel-default text-center" style="background-color: black;">
+							<div class="panel-body">
+								<div class="txtHead" style="padding-top: 10px;">
+									<img src="assets/NewLook.jpg" style="height: 150px; width: 200px;" >
+								</div>
+								
+								
+								<div class="col-lg-12">
+									<div class="panel panel-default text-center">
+										<div class="panel-body">
+											<div class="txtHead" style="padding-top: 10px;">
+											<p><strong>2010-2013</strong><br>
+											New Look<br>
+											Duties included:<br>
+											<li>
+											receiving and sorting deliveries</li>
+											<li>Stocking shop floor</li>
+											<li>Cash handling</li>
+											</p>
+											</div>
+										</div>
+									</div>
+								</div> <!-- End Column -->
+								
+							</div>
+						</div> <!-- End Panel -->
+					</div>
+			
+			
+				<!-- Dunnes Stores -->
+				<div class="col-lg-5" style="padding-top: 30px;">
+						<div class="panel panel-default text-center">
+							<div class="panel-body">
+								<div class="txtHead" style="padding-top: 10px;">
+									<img src="assets/Dunnes.jpg" style="height: 150px; width: 200px;" >
+								</div>
+							
+								<div class="col-lg-12">
+									<div class="panel panel-default text-center">
+										<div class="panel-body">
+											<div class="txtHead" style="padding-top: 10px;">
+												<p><strong>2006-2009</strong><br>
+												Dunnes Stores<br>
+												Duties included:<br>
+												<li>Stocking shelves</li>
+												<li>Cash handling</li>
+												<li>Customer service</li>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div> <!-- End Column -->
+								
+							</div>
+						</div> <!-- End Panel -->
+
+					</div>
+				
+			 <!-- End Row -->			
+		</div> <!-- End container --> 
+	</div> <!-- End well -->
+		
+</section>	 <!-- End Work Experience -->
+
+
+	
+<!-- Hobbies -->
+<div class="container">
+	<section>
+		<div class="page-header text-center" id="hobbies">
+			<h2>Hobbies and Interests.</h2>
+		</div>
+		
+		<div class="rowHobbies">
+			
+			<div class="col-sm-12">
+			
+				<div class="col-sm-3">
+					<p><strong>Football</strong> - Avid Arsenal FC supporter.<br><br></p>
+					<img src="assets/Arsenal.jpg" class="img-responsive" alt="image" style="height: 200px;">
+				</div>
+			
+				<div class="col-sm-3">
+					<p><strong>Table Tennis</strong> - Played on ITT Table Tennis Society.</p>
+					<img src="assets/TableTennis.jpg" class="img-responsive" alt="image" style="height: 200px;">
+				</div>
+			
+				<div class="col-sm-3">
+					<p><strong>Film</strong> - Massive film fan.<br><br></p>
+					<img src="assets/Film.jpg" class="img-responsive" alt="image" style="height: 200px;">
+				</div>
+				
+				<div class="col-sm-3">
+					<p><strong>Cooking</strong> - Enjoy taking cooking classes.<br></p>
+					<img src="assets/Cooking.jpg" class="img-responsive" alt="image" style="height: 200px;">
+				</div>
+			
+			</div>
+			
+		</div> <!-- End Row -->
+	</section> <!-- End Section -->
+</div> <!-- End Hobbies -->
+	
+	
+
+<!-- Contact section -->
+<div class="container">
+	<section>
+		<div class="page-header text-center" id="contact">
+			<h2>Contact Me.<br><small> Contact me for more</small></h2>
+		</div>
+	
+			<!-- Contact Info -->
+			<div class="col-lg-12 text-center">
+				<p>Send me a message at michaelthomassmith1986@gmail, <br>or contact me at the address below</p>
+				<address>
+					<strong>Michael Smith</strong></br> 
+					2 Palmerstown Woods</br>
+					Clondalkin</br>
+					Dublin 22 </br>
+					P: 085 2099504
+				</address>
+
+				
+					<div class="iframe-container" id="map" style="width:100%;padding-bottom:25px">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.442047761989!2d-6.396556284435762!3d53.335342779976735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867733a60ae9b7b%3A0x27851ce3fa947ff0!2s2+Palmerstown+Woods%2C+Raheen%2C+Dublin+22%2C+D22+XH66!5e0!3m2!1sen!2sie!4v1480974936271" allowfullscreen></iframe>
+					</div>
+			</div>	<!-- End Contact Info -->
+
+			
+			<!-- Contact form -->
+			 <!-- End Contact Form -->
+					
+	</section> <!-- End Section -->
+	
+</div> <!-- End Contact -->
+
+
+<!--
+<div class="container text-center">
+<a href="#contact3" data-toggle="modal">
+	<button type="submit" class="btn btn-primary">Contact Form</button>
+</a>
+</div>
+
+<div class="modal fade" id="contact3" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4>Contact Me</h4>
+			</div>
+			<div class="modal-body">
+				
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+						<label for="user-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+						</div>	
+					</div> <!-- End form group -->
+					<!--
+					<div class="form-group">
+						<label for="user-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-email" placeholder="Enter your Email address">
+						</div>	
+					</div>
+					
+					<div class="form-group">
+						<label for="user-url" class="col-lg-2 control-label">Your website</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-url" placeholder="Enter your website, if applicable">
+						</div>	
+					</div>
+					
+					<div class="form-group">
+						<label for="user-message" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+							
+						</div>	
+					</div>
+					
+					<div class="form-group">
+						<div class="col-lg-10 col-lg-offset-2">
+							<a href="#contact1" data-toggle="modal">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</a>
+						</div>
+					</div>
+					
+				</form> <!-- End Form -->
+			<!--
+			</div>
+			
+			<div class="modal-footer">
+				<a class="btn btn-default" data-dismiss="modal">Close</a>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+
+<!--
+<div class="modal fade" id="contact2" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4>Features i implemented in my CV</h4>
+			</div>
+			<div class="modal-body">
+				<li>Navbar</li>
+				<li>Jumbotron</li>
+				<li>Lists</li>
+				<li>Containers</li>
+				<li>Rows</li>
+				<li>Columns</li>
+				<li>Blockquotes</li>
+				<li>Sections</li>
+				<li>Wells</li>
+				<li>Responsive images</li>
+				<li>Links to social media pages</li>
+				<li>Email link</li>
+				<li>Progrss bars for results and made them live</li>
+				<li>Parallax scrolling</li>
+				<li>Collapsible panels</li>
+				<li>Carousels</li>
+				<li>Video</li>
+				<li>Panels</li>
+				<li>Links to project partners social media page</li>
+				<li>Contact Form</li>
+				<li>Responsive Map</li>
+				<li>Modals</li>
+				<li>Buttons</li>
+				<li>Downloadable CV</li>
+			</div>
+			<div class="footerInfo" style="padding-left: 10px;">
+				<p>URL of website: michaelsmithcv.azurewebsites.net</p>
+			</div>
+			
+			<div class="footerInfo" style="padding-left: 10px;">
+				<p>Used YouTube video for help with navbar
+				available at:
+				https://www.youtube.com/watch?v=e6VYRVRoC40</p>
+			</div>
+			
+			<div class="modal-footer">
+				<a class="btn btn-default" data-dismiss="modal">Close</a>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+<!-- Back to top -->
+<br>
+<br>
+<br>
+<div class="container text-center">
+<a href="#top" class="cd-top">
+	<button type="submit" class="btn btn-warning">Back to top</button>
+</a>
+</div>
+<br>
+<br>
+
+<div class="container text-center">
+<form method="get" action="assets/Michael Smith CV.pdf">
+<button type="submit">Click here to Download CV</button>
+</form>
+</div>
+
+<!-- Footer -->
+<footer>
+	
+	<div class="container">
+		<div class="container text-center">
+				<hr>
+				<ul class="list-inline">
+					<li><a href="https://twitter.com/MickSmith1986" target="_blank"><i class="fa fa-twitter-square" style="font-size:48px;color:#00aced"></i></a></li>
+					<li><a href="https://www.facebook.com/mick.smith.524?ref=bookmarks" target="_blank"><i class="fa fa-facebook-square" style="font-size:48px;color:#3b5998"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/michael-smith-4b96728b?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#007bb6"></i></a></li>
+					<li><a href="https://github.com/x00107586" target="_blank"><i class="fa fa-git-square" style="font-size:48px;color:#6cc644"></i></a></li>
+				</ul>
+				
+					
+				<p>&copy;Copyright @ Michael Smith 2016</p>
+				
+				
+		</div> <!-- End container -->
+	</div>
+</footer> <!-- End Footer -->
+
+
+
+<!-- Contact Success Message -->
+<div class="modal fade" id="contact1" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4>Success!!</h4>
+			</div>
+			<div class="modal-body">
+				<p>Thank you. Your message has been sent.</p>
+			</div>
+			<div class="modal-footer">
+				<a class="btn btn-default" data-dismiss="modal">Close</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
